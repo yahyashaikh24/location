@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd send_location
-                pip install -r requirements.txt
+                pip install -r requirement.txt
                 '''
             }
         }
