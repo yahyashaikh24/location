@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-flask'
+            label 'docker-agent-location'
             }
       }
     triggers {
