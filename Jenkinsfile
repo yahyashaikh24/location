@@ -2,7 +2,6 @@ pipeline {
     agent { 
         node {
             label 'docker-agent-location'
-            args '-p 5000:5000 --name my-flask-container'
             }
       }
     triggers {
