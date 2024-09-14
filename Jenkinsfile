@@ -2,7 +2,7 @@ pipeline {
     agent { 
         node {
             label 'docker-agent-location'
-            image 'yshaikh98/ubuntu_20_04_jenkins:latest'
+            
             }
       }
     triggers {
