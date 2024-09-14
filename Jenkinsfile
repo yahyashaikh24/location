@@ -14,7 +14,6 @@ pipeline {
                 sh '''
                 cd send_location
                 pip3 install -r requirement.txt
-                python3 ./app.py
                 '''
             }
         }
@@ -22,9 +21,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 // sh '''
-                // // cd myapp
-                // // python3 hello.py
-                // // python3 hello.py --name=Brad
+                
                 // '''
             }
         }
